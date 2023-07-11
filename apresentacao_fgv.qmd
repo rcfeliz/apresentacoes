@@ -1,0 +1,46 @@
+---
+title: "Entre a Estatística e o Direito"
+author: "Ricardo Feliz Okamoto"
+format: 
+  revealjs:
+      logo: "img/logo-abj-colorido.png"
+      footer: "FGV | ABJ"
+      theme: [default, css/custom-css.scss]
+      slide-number: c/t
+      show-slide-number: all
+      mainfont: Yaldevi
+editor: visual
+lang: pt
+title-slide-attributes: 
+  data-background-color: "#233262"
+  border-start-end-radius: 50%;
+  writing-mode: vertical-rl;
+  preview-links: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE, 
+  message = FALSE, 
+  warning = FALSE, 
+  results = "hide"
+)
+```
+
+## Apresentações
+
+Ricardo Feliz Okamoto
+
+## Estrutura
+
+1. Como o Direito ajuda a Estatística?
+  1.1. Preliminares: Entendendo bases de dados
+    1.1.1. Regra básica
+    1.1.2. Dados agregados x Dados desagregados
+    1.1.1. Dados brutos x Dados arrumados
+  1.1. Como o Direito ajuda
+    1.1. Entendendo os dados de movimentações
+    1.1. De onde extrair dados? Entendendo as competências
+2. Como a Estatística ajuda o Direito?
+  1.1. Viés de seleção
+  1.1. 
