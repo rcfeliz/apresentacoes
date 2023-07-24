@@ -1,0 +1,117 @@
+---
+title: "Metodologia de Pesquisa"
+author: "Ricardo Feliz Okamoto"
+format: 
+  revealjs:
+      # logo: "img/logo-abj-colorido.png"
+      footer: "FGV | ABJ"
+      theme: [default, css/custom-css.scss]
+      slide-number: c/t
+      show-slide-number: all
+      mainfont: Yaldevi
+editor: visual
+lang: pt
+title-slide-attributes: 
+  data-background-color: "#233262"
+  border-start-end-radius: 50%;
+  writing-mode: vertical-rl;
+  preview-links: true
+---
+
+## O caminho de uma pesquisa
+
+1. Listagem de processos
+  1. Definição de escopo e os sistemas de pesquisa
+  1. TPUs e a cifra oculta
+2. Extração dos dados
+  1. Extração automática
+  1. Extração manual
+3. Tratamento dos dados
+  1. Controle de inconsistências
+4. Análises
+  1. Análise de tempo
+  1. Viés de seleção e Teorema de Priest & Klein
+
+## Estrutura do curso
+
+2. Como o Direito ajuda a Estatística?
+1. Sobrevoo sobre a metodologia
+3. Análise de tempos, definição de escopo e sistemas de pesquisa
+4. TPUs e a cifra oculta
+7. Viés de seleção
+5. Extração dos dados
+6. Controle de inconsistências
+8. Conclusão: então como o Direito e a Estatística se conversam?
+
+# Como o Direito ajuda a Estatística?
+
+# Sobrevoo sobre a metodologia
+
+## Considerações iniciais
+
+- É natural essa metodologia
+- As etapas estão da metodologia são divididas artificialmente, porque elas, na prática, se sobrepoem
+- Mas ainda sim, faz sentido manter a separação, pois, analiticamente elas fazem sentido
+
+## Metoodologia
+
+1. Listagem de processos
+2. Extração dos dados
+3. Tratamento dos dados
+4. Análises
+
+## Listagem de processos
+
+- **Pressuposto**. Requer-se qe a pesquisa já tenha um objetivo claro e um escopo claro.
+- **Objetivo**. Delimitar todos os processos que estarão dentro do escopo da pesquisa. 
+- **Métodos e técnicas**. Web scraping, APIs
+- **Resultado**. A produção de uma _lista_ dos objetos potenciais no escopo
+  - Quais objetos? Processos, contratos, ...
+- **Problemas**. Viés e cifra oculta
+
+## Extração dos dados
+
+- **Pressuposto**. Ter a _lista_ dos objetos do escopo 
+- **Objetivo**. Coletar os dados que serão relevantes sobre o objeto da análise. 
+- **Métodos e técnicas**. Web scraping, classificação manual, regex, GPT, Natural Language Processing (NLP)
+- **Resultado**. A produção de uma base de dados _bruta_
+- **Problemas**. Sites não raspáveis (CAPTCHA, re-CAPTCHA), processos sigilosos, criatividade humana
+
+## Tratamento dos dados
+
+- **Pressuposto**. Ter uma base de dados 
+- **Objetivo**. Transformar a base bruta em uma base arrumada e controlar a qualidade dos dados
+- **Métodos e técnicas**. Controle de inconsistência, formulários lógicos, padronização de categorias, pacotes de arrumação e limpeza de dados
+- **Resultado**. A produção de uma base de dados _arrumada_
+- **Problemas**. Criatividade humana, erros não inconsistentes
+
+## Análises
+
+- **Pressuposto**. Ter uma base de dados arrumada
+- **Objetivo**. Responder as perguntas da pesquisa
+- **Métodos e técnicas**. Estatística descritiva, estatística inferencial, modelagem, automatização de relatórios, atualização constante de dados
+- **Resultado**. A produção de relatórios, artigos, dashboards... 
+
+# Dúvidas? {background="#fff"}
+
+# Análise de tempos, definição de escopo e sistemas de pesquisa
+
+# Dúvidas? {background="#fff"}
+
+# TPUs e cifra oculta
+
+# Dúvidas? {background="#fff"}
+
+# Viés de seleção
+
+# Dúvidas? {background="#fff"}
+
+# Extração dos dados
+
+# Dúvidas? {background="#fff"}
+
+# Controle de inconsistências
+
+# Dúvidas? {background="#fff"}
+
+# Conclusão: então como o Direito e a Estatística se conversam?
